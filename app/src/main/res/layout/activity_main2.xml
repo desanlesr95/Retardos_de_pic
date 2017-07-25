@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="22dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    tools:context="com.desan.luis.retardos.Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Esta aplicacion fue hecha para uso de la materia de Lenguajes de Interfaz para calcular los retardos"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        android:text="Integrantes del equipo:"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luis Enrique Sanchez Ramirez\nSandra Beatriz Martinez Medina\nEmanuel Martinez Hernandez\nCesar Ivan Hernandez Dominguez\nEdgar Apresa Linares"/>
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_gravity="end"
+        android:id="@+id/atras"
+        android:src="@drawable/flecha"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>
